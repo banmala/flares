@@ -1,0 +1,71 @@
+@import 'variables';
+
+
+body{
+	background-color: $sec-bg;
+	#home{
+		background: url(../img/bunny.jpg) no-repeat; 
+		background-size: cover;
+		.container-fluid{
+			background: rgba(0,0,0,0.3);
+			min-height: 100vh; 
+			width: inherit;
+			nav{
+				z-index:1;
+				color: $primary;
+				.navbar-brand
+				{					
+						color: $primary;
+				}
+				ul{
+					li{
+						a{
+							padding: 10px 20px;
+							color: $primary;
+						}
+						&:hover{
+							a{
+								color: $sec;
+								background-color: $sec-bg;
+								border-radius: 5px ;
+							}
+						}
+					}
+
+				}
+			}
+		}
+		.navbar{
+			padding-top: 20px;
+			transition: 0.9s linear;
+		}
+		.top-nav-collapse{
+			background: $primary-bg;
+			padding-top: 0px;
+			transition: 0.9s linear;
+		}
+		margin-bottom: 30px;
+	} 
+	#myskills{
+		.container{
+			.row{
+				h1{
+					font-size: 16px;
+					padding: 20px;
+					margin: auto;
+				}
+				.col-md-3{
+					.row{
+						margin: auto;
+						
+						img{
+							width:100%;
+							height:auto;
+							border-radius: 55%;
+						}
+					}
+				}
+			}
+		}
+	}
+}

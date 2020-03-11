@@ -1,0 +1,36 @@
+body {
+  background-color: #eee; }
+  body #home {
+    background: url(../img/bunny.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 30px; }
+    body #home .container-fluid {
+      background: rgba(0, 0, 0, 0.3);
+      min-height: 100vh;
+      width: inherit; }
+      body #home .container-fluid nav {
+        z-index: 1;
+        color: #fff; }
+        body #home .container-fluid nav .navbar-brand {
+          color: #fff; }
+        body #home .container-fluid nav ul li a {
+          padding: 10px 20px;
+          color: #fff; }
+        body #home .container-fluid nav ul li:hover a {
+          color: #777;
+          background-color: #eee;
+          border-radius: 5px; }
+    body #home .navbar {
+      padding-top: 20px;
+      transition: 0.9s linear; }
+    body #home .top-nav-collapse {
+      background: #ccc;
+      padding-top: 0px;
+      transition: 0.9s linear; }
+      .home-txt h1{
+        text-align: center;
+        padding-top:25vh;
+        text-decoration:none;
+        color: #777;
+      }
+/*# sourceMappingURL=style.css.map */
