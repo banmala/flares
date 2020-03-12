@@ -1,7 +1,7 @@
 body {
   background-color: #eee; }
   body #home {
-    background: url(../img/bunny.jpg) no-repeat;
+    background: url(../img/bunny.jpg) no-repeat fixed;
     background-size: cover;
     margin-bottom: 30px; }
     body #home .container-fluid {
